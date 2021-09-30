@@ -1,0 +1,10 @@
+{
+  "name": "javascript-foundations",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.html",
+  "dependencies": {
+    "jest": "27.2.0"
+  }
+}
