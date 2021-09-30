@@ -1,0 +1,135 @@
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+/* Our default values set as CSS variables */
+:root {
+  --color-bg: #1a0020;
+  --color-text-main: #000000;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "Helvetica";
+  --font-family-header: "Helvetica";
+}
+
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: var(--color-bg);
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Page structure */
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: #d55d5d;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+}
+
+/* Instructions */
+.instructions {
+  margin: 1rem auto 0;
+}
+
+/* Button - Add it from the README instructions */
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+/* Subheading */
+h2 {
+  color: #d55d5d;
+}
+
+pre {
+  background-color: #444;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  white-space: pre-line;
+}
+
+code {
+  background-color: #444;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.2rem;
+}
+
+a {
+  color: teal;
+}
+
+a:hover {
+  color: #00abab;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  
+}
+
+.footer-nav {
+  width: 140px;
+  margin-top: 2rem;
+}
+
+.footer-current-path {
+  color: #333;
+  text-align: center;
+}
+
+/* Button dip
+- Toggling this class on and off will move it down and up again
+- The button transition property above determines the speed of the translate (500ms)
+*/
+.dipped {
+  transform: translateY(5px);
+}
