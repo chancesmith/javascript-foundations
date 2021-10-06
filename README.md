@@ -39,3 +39,12 @@ Click the Begin Exercises link to start.
 ## Fork this Sandbox
 
 https://codesandbox.io/s/angry-pine-mi43s?file=/exercise-4/script.js
+
+### hands-on exercises
+
+- complete an increment button
+- [restuarant host](https://github.com/chancesmith/javascript-foundations-restaurant)
+- [vending machine](https://github.com/chancesmith/javascript-foundations-vending-machine)
+- todo list ??
+- project management (team capacity) ??
+- airline (plane capacity) ??
