@@ -6,5 +6,10 @@
   "main": "index.html",
   "dependencies": {
     "jest": "27.2.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-useless-concat": "off"
+    }
   }
 }

@@ -12,3 +12,14 @@ console.log(4 * 2); // prints 8
 // 🎬 divide 12 by 4
 
 // 🎬 multiply 5 by 5
+
+// -------------------------------------
+// 📚 Operators are just for numbers
+// Concatenation: Let's add with strings.
+// -------------------------------------
+
+// examples
+console.log('with ' + 'space'); // prints 'with space'
+console.log('with' + ' space'); // prints 'with space'
+console.log('no' + 'space'); // prints 'nospace'
+console.log('with' + ' ' + ' space'); // prints 'with space'
