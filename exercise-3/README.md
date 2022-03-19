@@ -1,6 +1,8 @@
-# Data Typs
+# Data Types
 
 In JavaScript, there are 7 different kinds of data you can use you your software.
+
+See examples in `examples.ts`;
 
 ## 1 - Number 🧮
 
