@@ -22,25 +22,12 @@ Open each file and check out the comments (in gray) for more info.
 
 Click the Begin Exercises link to start.
 
-## Development tips
-
-1. sketch and validate before you code
-2. timebox or feature-box to release early
-3. work with others (pairing + hackathons + job shadows)
-
 ## Chance's todos
 
 - [x] console
 - [x] comments
 - [x] data types
-- [ ] operators
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [x] operators
 
 ## Fork this Sandbox
 
