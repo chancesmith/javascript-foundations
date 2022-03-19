@@ -28,7 +28,13 @@ Click the Begin Exercises link to start.
 - [x] comments
 - [x] data types
 - [ ] operators
-- [ ] logic flow
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 
 ## Fork this Sandbox
 
