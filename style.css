@@ -8,12 +8,12 @@
 :root {
   --color-bg: #1a0020;
   --color-text-main: #000000;
-  --color-primary: #FFFF00;
+  --color-primary: #ffff00;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "Helvetica";
-  --font-family-header: "Helvetica";
+  --font-family: 'Helvetica';
+  --font-family-header: 'Helvetica';
 }
 
 /* Imported fonts */
@@ -69,7 +69,7 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -95,6 +95,13 @@ code {
   padding: 0.1rem 0.2rem;
 }
 
+ul {
+}
+
+li {
+  margin-top: 1rem;
+}
+
 a {
   color: teal;
 }
@@ -113,7 +120,6 @@ a:hover {
 }
 
 footer {
-  
 }
 
 .footer-nav {
