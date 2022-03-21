@@ -22,4 +22,4 @@ console.log(4 * 2); // prints 8
 console.log('with ' + 'space'); // prints 'with space'
 console.log('with' + ' space'); // prints 'with space'
 console.log('no' + 'space'); // prints 'nospace'
-console.log('with' + ' ' + ' space'); // prints 'with space'
+console.log('with' + ' ' + 'space'); // prints 'with space'
